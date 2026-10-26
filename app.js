@@ -14,8 +14,8 @@ function openVideo(d, trigger) {
   $('#dialog-title').textContent = d.title;
   $('#dialog-condition').textContent = `${d.group.toUpperCase()} / ${d.condition}`;
   const video = $('#dialog-video');
-  video.src = `assets/videos/${d.id}.mp4`;
-  video.poster = `assets/posters/${d.id}.webp`;
+  video.src = `assets/${d.id}.mp4`;
+  video.poster = `assets/${d.id}.webp`;
   $('#download-video').href = video.src;
   dialog.showModal();
   document.body.style.overflow = 'hidden';
@@ -30,7 +30,7 @@ function renderDemos() {
     const article = document.createElement('article'); article.className = 'demo-card';
     const button = document.createElement('button'); button.type = 'button'; button.className = `demo-trigger${d.portrait ? ' portrait' : ''}`;
     button.setAttribute('aria-label', `Play ${d.title}: ${d.condition}`);
-    const img = document.createElement('img'); img.src = `assets/posters/${d.id}.webp`; img.alt = d.title; img.loading = 'lazy'; img.width = 480; img.height = d.portrait ? 848 : 270;
+    const img = document.createElement('img'); img.src = `assets/${d.id}.webp`; img.alt = d.title; img.loading = 'lazy'; img.width = 480; img.height = d.portrait ? 848 : 270;
     const play = document.createElement('span'); play.className = 'play-icon'; play.textContent = '▶'; play.setAttribute('aria-hidden', 'true');
     const duration = document.createElement('span'); duration.className = 'video-duration'; duration.textContent = `${Math.floor(d.duration / 60)}:${String(d.duration % 60).padStart(2,'0')}`;
     const tag = document.createElement('span'); tag.className = 'video-index'; tag.textContent = d.group.toUpperCase();
