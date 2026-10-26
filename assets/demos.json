@@ -1,0 +1,164 @@
+[
+  {
+    "id": "1809770213",
+    "group": "id",
+    "task": "electrical",
+    "title": "Charger insertion",
+    "condition": "Plain black tabletop",
+    "duration": 27,
+    "portrait": false
+  },
+  {
+    "id": "458767912",
+    "group": "id",
+    "task": "electrical",
+    "title": "USB insertion",
+    "condition": "Plain black tabletop",
+    "duration": 32,
+    "portrait": false
+  },
+  {
+    "id": "521706557",
+    "group": "id",
+    "task": "tubes",
+    "title": "Sequential test-tube insertion",
+    "condition": "Plain black tabletop",
+    "duration": 109,
+    "portrait": false
+  },
+  {
+    "id": "1287009538",
+    "group": "id",
+    "task": "tubes",
+    "title": "Test-tube removal",
+    "condition": "Plain black tabletop \u00b7 additional task",
+    "duration": 13,
+    "portrait": true
+  },
+  {
+    "id": "1739269241",
+    "group": "id",
+    "task": "drive",
+    "title": "Hard-drive removal",
+    "condition": "Black-cloth setup \u00b7 additional task",
+    "duration": 13,
+    "portrait": false
+  },
+  {
+    "id": "45772804",
+    "group": "ood",
+    "task": "electrical",
+    "title": "A new surface. The same contact.",
+    "condition": "Patterned tablecloth",
+    "duration": 48,
+    "portrait": false
+  },
+  {
+    "id": "1617766569",
+    "group": "ood",
+    "task": "electrical",
+    "title": "USB insertion on red",
+    "condition": "Red tablecloth",
+    "duration": 38,
+    "portrait": false
+  },
+  {
+    "id": "556509964",
+    "group": "ood",
+    "task": "electrical",
+    "title": "Charger insertion under bright light",
+    "condition": "Red tablecloth + strong light",
+    "duration": 51,
+    "portrait": false
+  },
+  {
+    "id": "483252612",
+    "group": "ood",
+    "task": "electrical",
+    "title": "USB insertion under bright light",
+    "condition": "Red tablecloth + changing light",
+    "duration": 39,
+    "portrait": false
+  },
+  {
+    "id": "1199572740",
+    "group": "ood",
+    "task": "electrical",
+    "title": "USB insertion with illumination shift",
+    "condition": "Strong directional light",
+    "duration": 32,
+    "portrait": false
+  },
+  {
+    "id": "1675874530",
+    "group": "ood",
+    "task": "electrical",
+    "title": "Charger insertion with illumination shift",
+    "condition": "Strong directional light",
+    "duration": 19,
+    "portrait": false
+  },
+  {
+    "id": "1011133683",
+    "group": "ood",
+    "task": "electrical",
+    "title": "Contact under changing colors",
+    "condition": "Dynamic colored light",
+    "duration": 28,
+    "portrait": true
+  },
+  {
+    "id": "490555157",
+    "group": "ood",
+    "task": "electrical",
+    "title": "Insertion under changing colors",
+    "condition": "Dynamic colored light",
+    "duration": 11,
+    "portrait": true
+  },
+  {
+    "id": "1190509588",
+    "group": "ood",
+    "task": "tubes",
+    "title": "Test-tube insertion on red",
+    "condition": "Red tablecloth",
+    "duration": 40,
+    "portrait": false
+  },
+  {
+    "id": "1499416501",
+    "group": "ood",
+    "task": "tubes",
+    "title": "Test-tube insertion on a patterned surface",
+    "condition": "Patterned tablecloth",
+    "duration": 93,
+    "portrait": false
+  },
+  {
+    "id": "994908383",
+    "group": "ood",
+    "task": "tubes",
+    "title": "Test-tube insertion under bright light",
+    "condition": "Strong directional light",
+    "duration": 102,
+    "portrait": false
+  },
+  {
+    "id": "315235024",
+    "group": "ood",
+    "task": "tubes",
+    "title": "Test-tube insertion under colored light",
+    "condition": "Dynamic colored light",
+    "duration": 21,
+    "portrait": false
+  },
+  {
+    "id": "864787437",
+    "group": "ood",
+    "task": "tubes",
+    "title": "Sequential insertion under colored light",
+    "condition": "Dynamic colored light",
+    "duration": 61,
+    "portrait": false
+  }
+]
