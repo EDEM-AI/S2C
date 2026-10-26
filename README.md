@@ -17,7 +17,7 @@ Local preview: `python3 -m http.server 8000`, then open http://localhost:8000.
 - Five ID clips show the ordinary black-cloth setup. Thirteen OOD clips include changed tablecloths and strong/colored lighting, even if the cloth remains black. Classifications are recorded in `assets/demos.json`.
 - Test-tube and hard-drive removal are additional tasks, separate from the six-task insertion benchmark.
 - Result averages are calculated from the manuscript's per-task counts. HIL-ConRFT's training counts yield 110/120 = 91.67%, correcting the manuscript's arithmetic typo of 91.76%.
-- No publication venue, acceptance status, arXiv identifier or released algorithm repository is inferred. The framework PDF is available; a compiled manuscript PDF was not part of the supplied files.
+- NeurIPS 2026 acceptance is provided by the project author. The BibTeX entry uses the conference proceedings title; no volume, page range, DOI or arXiv identifier is inferred. The framework PDF is available; a compiled manuscript PDF was not part of the supplied files.
 - Author names and all three affiliations follow the supplied S2C manuscript. The two requested institutional logos are displayed.
 
 ## Attribution
