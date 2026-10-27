@@ -20,7 +20,7 @@
 <nav class="nav" aria-label="Main navigation">
   <a class="brand" href="#top"><span class="brand-icon" aria-hidden="true">S<span>2</span>C</span><span>Semantics-to-Contact</span></a>
   <div class="nav-links"><a href="#method">Method</a><a href="#experiments">Experiments</a><a href="#results">Results</a></div>
-  <a class="pill small" href="#film">Watch film <span aria-hidden="true">↗</span></a>
+  <a class="pill small" href="#film">Watch demo <span aria-hidden="true">↗</span></a>
 </nav>
 <main id="main">
   <header class="hero research hero-paper" id="top">
@@ -30,8 +30,8 @@
       <details id="abstract" open><summary>Abstract</summary><p>Contact-rich manipulation requires precise control under complex contact dynamics while remaining robust to diverse visual conditions. However, real-world reinforcement learning often overfits to the visual appearance of training scenes. We propose Semantics-to-Contact (S2C), a stagewise framework for visually robust contact-rich manipulation. The insight is to decompose the problem into two stages: semantic focusing and contact refinement. In the first stage, a vision-language model localizes task-relevant regions across visually diverse scenes, providing coarse spatial guidance and reducing the burden of exploration. In the second stage, a real-world human-in-the-loop residual reinforcement learning policy learns fine-grained contact behaviors within the localized region using force feedback. To further improve visual robustness, we introduce an object-centric visual augmentation strategy that randomizes background appearance while preserving the robot and task-relevant objects. Experiments on six contact-rich real-world manipulation tasks exhibit that S2C consistently improves success rates over strong baselines and maintains reliable performance under significant visual and positional variations. These results demonstrate that stagewise semantic focusing and contact refinement provide a practical path toward visually robust real-world contact-rich manipulation.</p></details>
     </div>
     <figure class="hero-film wide" id="film">
-      <video id="overview" controls playsinline preload="metadata" poster="assets/overview.jpg" aria-label="Semantics-to-Contact full one-minute overview film"><source src="assets/overview.mp4" type="video/mp4"><a href="assets/overview.mp4">Download the overview film</a></video>
-      <figcaption><span><b>A minute of real-world contact.</b> From semantic guidance to robust execution.</span><span class="mono">OVERVIEW FILM · 01:00</span></figcaption>
+      <video id="overview" controls playsinline preload="metadata" poster="assets/overview.jpg" aria-label="Semantics-to-Contact full one-minute overview demo"><source src="assets/overview.mp4" type="video/mp4"><a href="assets/overview.mp4">Download the overview demo</a></video>
+      <figcaption><span><b>A minute of real-world contact.</b> From semantic guidance to robust execution.</span><span class="mono">OVERVIEW DEMO · 01:00</span></figcaption>
     </figure>
   </header>
 
@@ -59,7 +59,7 @@
       <div class="gallery-controls"><div class="segmented" role="group" aria-label="Video distribution"><button data-group="ood" aria-pressed="true">Out-of-distribution <span>13</span></button><button data-group="id" aria-pressed="false">In-distribution <span>5</span></button><button data-group="all" aria-pressed="false">All <span>18</span></button></div><label class="task-select">Task <select id="task-filter"><option value="all">All tasks</option><option value="electrical">Charger & USB</option><option value="tubes">Test tubes</option><option value="drive">Hard-drive removal</option></select></label></div>
       <p id="distribution-note" class="gallery-note">Changed tablecloths, strong illumination and colored-light perturbations.</p>
       <div id="demo-grid" class="demo-grid"></div><p id="empty-state" hidden>No clips match this selection. Try another task or distribution.</p><p class="gallery-footnote">ID denotes the ordinary black-cloth setup. OOD includes changed surfaces and deliberately altered illumination, even when the tabletop remains black. Removal clips demonstrate additional tasks and are separate from the six-task insertion benchmark.</p>
-      <noscript><p>Enable JavaScript to filter recordings, or <a href="assets/overview.mp4">watch the complete overview film</a>.</p></noscript>
+      <noscript><p>Enable JavaScript to filter recordings, or <a href="assets/overview.mp4">watch the complete overview demo</a>.</p></noscript>
     </div>
   </section>
 
